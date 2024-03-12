@@ -12,7 +12,7 @@ st.markdown("# Simple Chat Bot page 🎈")
 st.sidebar.markdown("# Chat Bot page 🎈")
 
 # Replace the google_api_key here
-GOOGLE_API_KEY = "AIzaSyB0s4jeiEXu1CgxNuyiosibCB2mJxgd8sk"
+GOOGLE_API_KEY = "******************" #Replace with Google_Api_Key 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 ## function to load Gemini Pro model and get repsonses
